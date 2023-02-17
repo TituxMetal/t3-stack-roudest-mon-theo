@@ -1,10 +1,22 @@
 import { type NextPage } from 'next'
 import Head from 'next/head'
+import { useState } from 'react'
 
-import { getOptionsForVote } from '~/utils'
+import { api, getOptionsForVote } from '~/utils'
 
 const Home: NextPage = () => {
-  const [first, second] = getOptionsForVote()
+  const [ids, updateIds] = useState(() => getOptionsForVote())
+  const [first, second] = ids
+  const firstPokemon = api.pokemon.getPokemonById.useQuery({ id: first })
+  const secondPokemon = api.pokemon.getPokemonById.useQuery({ id: second })
+
+  if (firstPokemon.isLoading || secondPokemon.isLoading) return null
+  const firstPokemonImg =
+    (firstPokemon?.data && firstPokemon.data.sprites.other?.['official-artwork'].front_default) ||
+    ''
+  const secondPokemonImg =
+    (secondPokemon?.data && secondPokemon.data.sprites.other?.['official-artwork'].front_default) ||
+    ''
 
   return (
     <>
@@ -18,9 +30,15 @@ const Home: NextPage = () => {
           <h1 className='text-2xl text-center'>Which Pokémon is Rounder?</h1>
         </section>
         <section className='border rounded p-8 flex items-center justify-between gap-8 max-w-2xl'>
-          <div className='h-32 w-32 bg-pink-600 flex items-center justify-center'>{first}</div>
+          <div className='h-64 w-64 bg-transparent flex flex-col items-center justify-center'>
+            <img className='w-full' src={firstPokemonImg} alt={firstPokemon.data.name} />
+            <p className='capitalize text-lg font-bold'>{firstPokemon.data.name}</p>
+          </div>
           <div>VS</div>
-          <div className='h-32 w-32 bg-pink-600 flex items-center justify-center'>{second}</div>
+          <div className='h-64 w-64 bg-transparent flex flex-col items-center justify-center'>
+            <img src={secondPokemonImg} alt={secondPokemon.data.name} />
+            <p className='capitalize text-lg font-bold'>{secondPokemon.data.name}</p>
+          </div>
         </section>
       </main>
     </>
