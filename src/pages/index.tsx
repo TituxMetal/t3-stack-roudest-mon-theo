@@ -1,10 +1,10 @@
 import { type NextPage } from 'next'
 import Head from 'next/head'
 
-import { api } from '~/utils/api'
+import { getOptionsForVote } from '~/utils'
 
 const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: 'from tRPC' })
+  const [first, second] = getOptionsForVote()
 
   return (
     <>
@@ -18,9 +18,9 @@ const Home: NextPage = () => {
           <h1 className='text-2xl text-center'>Which Pokémon is Rounder?</h1>
         </section>
         <section className='border rounded p-8 flex items-center justify-between gap-8 max-w-2xl'>
-          <div className='h-32 w-32 bg-pink-600' />
+          <div className='h-32 w-32 bg-pink-600 flex items-center justify-center'>{first}</div>
           <div>VS</div>
-          <div className='h-32 w-32 bg-pink-600' />
+          <div className='h-32 w-32 bg-pink-600 flex items-center justify-center'>{second}</div>
         </section>
       </main>
     </>
