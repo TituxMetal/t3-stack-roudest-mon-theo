@@ -7,7 +7,8 @@ export const pokemonRouter = createTRPCRouter({
   getPokemonById: publicProcedure.input(z.object({ id: z.number() })).query(async ({ input }) => {
     const api = new PokemonClient()
     const pokemon = await api.getPokemonById(input.id)
+    const { id, name, sprites } = pokemon
 
-    return pokemon
+    return { id, name, sprites }
   })
 })
