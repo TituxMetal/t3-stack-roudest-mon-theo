@@ -376,26 +376,26 @@
     lodash "^4.17.21"
 
 "@trpc/client@^10.9.0":
-  version "10.11.1"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.11.1.tgz#e61f380eb751c111821c574a155df386a0c13a50"
-  integrity sha512-6aHY27YomzyUAlKhJE4jJulzDjc6vAKAKoWqAmoYbEEhApvyDrMo52bdYqqsukjxvA/L/uPhjOcPU5OsO+x+pA==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.16.0.tgz#665fc51f849808090ed21b3467190b0d1e7089d9"
+  integrity sha512-Hxxi3mOcUyszosj6xpPDIIBV1TOhXKpZ191BW/60r1lXBAfNrDUWHOTol1Dfu+hpcx4bpj3WRyob5cf+6KeCDA==
 
 "@trpc/next@^10.9.0":
-  version "10.11.1"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.11.1.tgz#f8179ea7cf2f3314087f873d1a0764f3e1d74f1f"
-  integrity sha512-lIXdYvD3pU7ryX5/F4jviaSKQTAHF+yUzApyp60o9QOjiYrMs1UL7sP7eBD1cDo45Ma3ffgzvl6o+6Y3JvsdAQ==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.16.0.tgz#d02d2fb863ed8c2e2124d27d5e5072cd154298dc"
+  integrity sha512-2AohDydvvLk2IjnQ1hTnT8cVmLItYf6cFRwJVYnyi35y2DVKXLiIWuKSTzc9xzR5enYFUQJZivXaWx/i0jjcfQ==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@^10.9.0":
-  version "10.11.1"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.11.1.tgz#c7fd814f99db9babb34bf6ee1a6f46159a1cc00d"
-  integrity sha512-GqM0idzlQMi6upK/8IOa117UXckJDsRY+UHVkeawtkLi4hWvk82ic+zXRNw5MDYqKCC2CAlp8JIyrKfOuBdXqw==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.16.0.tgz#16056e30ede349b8fb3063ee3c7bd7565ff2b96a"
+  integrity sha512-LHLkyYgmmmaqMK33Hil7+DxCRG+8cRl2hF/rY8DQneh7e/u4cBA/wbun5vs8BAJxmYcHsQNPlq5aBy80CyU78g==
 
 "@trpc/server@^10.9.0":
-  version "10.11.1"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.11.1.tgz#afc966b97d4f16ae9e8d92044a4f8fd1326991e6"
-  integrity sha512-7FnvuaNsSl6HLloh0a297McS4yjhbqg/bw1h/XOAKduNPUQwXNmJf48X1PAsD8ODtO1Rrjz9TeynJD7uCEn0xQ==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.16.0.tgz#eda8f443852c6fb3791294ac936e49659346b221"
+  integrity sha512-lCUq7AB7vcgrNbaN+xP/AN62OjKDgrRyG7fTDPv5K633ut7KJ3m57qs60VRBOgp9vow6elAg51pKFFDtPHbTRA==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
