@@ -374,26 +374,26 @@
     lodash "^4.17.21"
 
 "@trpc/client@^10.9.0":
-  version "10.27.1"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.27.1.tgz#bf1fb90198f890c8cad50f8877ff96a28c87a6e9"
-  integrity sha512-e9Syj6F41OHDSUg3JvT67fgoD22UbxPzYgp9Bno13NFpyeJc6vkXRlAgDc8ZuouqUPQuouJWll/I90CsuxEqvA==
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.28.0.tgz#fb474107b480e3446eb9ff39104d30cbf31048b4"
+  integrity sha512-Xhl2xdGI4PkI/a8xaTbsdpIXOy7PeOZaBBdvBgs2kpKiznNAI10qPrK+GLIDkSxvekLqDSnVYIhS0kU0FkhEXw==
 
 "@trpc/next@^10.9.0":
-  version "10.27.1"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.27.1.tgz#58fc6aba69ff0571aeab49430e0f49aeedceafb5"
-  integrity sha512-3aMGjhJXiJOj/tjqkyMot3x/nbxbHeEcCWjgYiCHmiXVk9h9liIG73f2is8jWEPs3o/eJ+eNwNSzkfhrhIWq2g==
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.28.0.tgz#d848b2a4ae708d6ce1993549323b07b91452b575"
+  integrity sha512-sD98gQu/vZhXhC4hEPqyQStWhUIgZCWQuE4N//eZodAtb8Lyosg/UUs/Mo6IFAcdjcXKuyMYlu27ZIRjaG3txw==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@^10.9.0":
-  version "10.27.1"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.27.1.tgz#2ba569162f07b9f36a0b68c9700fe5b2ada86795"
-  integrity sha512-6Q6B5cGKvxnmy/B5VsOjOG4sBl19VJJrGloFp93jc3Hq3+EfniOssdoA81VLI3fInif8ns0Z4jgWUIpq8741cA==
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.28.0.tgz#349b1d8f28b6bf10ead51b9902175f5e176b9652"
+  integrity sha512-ssXaZbtNHrgvUW/bmwpiEttF1t1TMZAp/FQ98puXE7MqpodEi2aIum1Ou9Cb1w0lEc4mPwOwztzwuUSGsdCD6Q==
 
 "@trpc/server@^10.9.0":
-  version "10.27.1"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.27.1.tgz#5a3e996c7ac83ab7a366f9517b66af1287bcf275"
-  integrity sha512-oMTNpei0+CAet0BuDdBE9cup0SseJAOlWRhWhcTAU05rETsJnzCA5DfNkf+aP3XiAM8rMJfrTfC0Z3aeADhHaA==
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.28.0.tgz#9c70d56dbe20b7726cf752006f815b2f7177c95e"
+  integrity sha512-PrJ/VgRuujMCtNkgrldCPbqv3+yk1LKweKEfvQHTN2L0WIaKJPXzSsOTJS9PqNpFOTqzaK5mgDbypIFvq7SYow==
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -406,9 +406,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@^18.11.18":
-  version "18.16.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.13.tgz#984c48275c718b5b3e47371938f3cff482790598"
-  integrity sha512-uZRomboV1vBL61EBXneL4j9/hEn+1Yqa4LQdpGrKmXFyJmVfWc9JV9+yb2AlnOnuaDnb2PDO3hC6/LKmzJxP1A==
+  version "18.16.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.14.tgz#ab67bb907f1146afc6fedb9ce60ae8a99c989631"
+  integrity sha512-+ImzUB3mw2c5ISJUq0punjDilUQ5GnUim0ZRvchHIWJmOC0G+p0kzhXBqj6cDjK0QdPFwzrHWgrJp3RPvCG5qg==
 
 "@types/prettier@^2.7.2":
   version "2.7.2"
